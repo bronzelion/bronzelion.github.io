@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Musical Instrument Recognition"
-description: ""
-category: 
+description: "A summary of instruments"
+category: "post"
 tags: [classification, machine-learning]
 ---
-{% include JB/setup %}
 
-A first post
+
+A first post.
 
