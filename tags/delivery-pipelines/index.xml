@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>delivery-pipelines on Harsha K Chidambara</title>
+    <link>https://bronzelion.github.io/tags/delivery-pipelines/</link>
+    <description>Recent content in delivery-pipelines on Harsha K Chidambara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 22:33:49 +0000</lastBuildDate><atom:link href="https://bronzelion.github.io/tags/delivery-pipelines/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerate: The best book I read in 2020</title>
+      <link>https://bronzelion.github.io/posts/accelerate/</link>
+      <pubDate>Tue, 27 Oct 2020 22:33:49 +0000</pubDate>
+      
+      <guid>https://bronzelion.github.io/posts/accelerate/</guid>
+      <description>The book I wish to introduce to you today is titled Accelerate ⏩, from authors Nicole Forsgren, Jez Humble &amp;amp; Gene Kim . This post isn&amp;rsquo;t a review — it is a short summary of my opinions and insights gained upon reading this book. I&amp;rsquo;d highly recommend it for anyone who is writing any kind of software(I absolutely mean it 😄).
+How often do we get started with writing code caring very little about deployment in the beginning — to realise that we should have thought about it from the start(even if that&amp;rsquo;s for rapid prototyping).</description>
+    </item>
+    
+  </channel>
+</rss>

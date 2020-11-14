@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Accelerate: The best book I read in 2020">
+<meta itemprop="description" content="The book I wish to introduce to you today is titled Accelerate ⏩, from authors Nicole Forsgren, Jez Humble &amp; Gene Kim . This post isn&rsquo;t a review — it is a short summary of my opinions and insights gained upon reading this book. I&rsquo;d highly recommend it for anyone who is writing any kind of software(I absolutely mean it 😄).
+How often do we get started with writing code caring very little about deployment in the beginning — to realise that we should have thought about it from the start(even if that&rsquo;s for rapid prototyping).">
+<meta itemprop="datePublished" content="2020-10-27T22:33:49+00:00" />
+<meta itemprop="dateModified" content="2020-10-27T22:33:49+00:00" />
+<meta itemprop="wordCount" content="541">
+
+
+
+<meta itemprop="keywords" content="books,delivery-pipelines,continuous-delivery," />
+<meta property="og:title" content="Accelerate: The best book I read in 2020" />
+<meta property="og:description" content="The book I wish to introduce to you today is titled Accelerate ⏩, from authors Nicole Forsgren, Jez Humble &amp; Gene Kim . This post isn&rsquo;t a review — it is a short summary of my opinions and insights gained upon reading this book. I&rsquo;d highly recommend it for anyone who is writing any kind of software(I absolutely mean it 😄).
+How often do we get started with writing code caring very little about deployment in the beginning — to realise that we should have thought about it from the start(even if that&rsquo;s for rapid prototyping)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bronzelion.github.io/posts/accelerate/" />
+<meta property="article:published_time" content="2020-10-27T22:33:49+00:00" />
+<meta property="article:modified_time" content="2020-10-27T22:33:49+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Accelerate: The best book I read in 2020"/>
+<meta name="twitter:description" content="The book I wish to introduce to you today is titled Accelerate ⏩, from authors Nicole Forsgren, Jez Humble &amp; Gene Kim . This post isn&rsquo;t a review — it is a short summary of my opinions and insights gained upon reading this book. I&rsquo;d highly recommend it for anyone who is writing any kind of software(I absolutely mean it 😄).
+How often do we get started with writing code caring very little about deployment in the beginning — to realise that we should have thought about it from the start(even if that&rsquo;s for rapid prototyping)."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Accelerate: The best book I read in 2020</title>
+	<link rel="stylesheet" href="https://bronzelion.github.io/css/style.min.eac77496566fd7d5768fd650ddb0b2b181ca6a2d7c5fdd6fe6b8ba4bf47e566f.css" integrity="sha256-6sd0llZv19V2j9ZQ3bCysYHKai18X91v5ri6S/R+Vm8=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://bronzelion.github.io">Harsha K Chidambara</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://bronzelion.github.io/posts/">Blog</a>
+				<a href="https://bronzelion.github.io/about/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/harshakc01" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://github.com/bronzelion" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.imdb.com/name/nm8597918/" target="_blank" rel="noopener me" title="Imdb"><svg xmlns="http://www.w3.org/2000/svg" class="feather feather-link" aria-hidden="true" fill="none" focusable="false" width="24" height="24" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M14.31 9.588v.005c-.077-.048-.227-.07-.42-.07v4.815c.27 0 .44-.06.5-.165c.062-.104.095-.405.095-.885v-2.866c0-.33-.004-.54-.033-.63a.292.292 0 0 0-.14-.204zM22.416 0H1.62C.742.06.06.744 0 1.596V22.38c.06.874.712 1.542 1.555 1.617c.015.003.03.003.045.003h20.845A1.727 1.727 0 0 0 24 22.29V1.71C24 .82 23.305.07 22.416 0zM4.792 15.626H2.887V8.26h1.905v7.366zm6.54-.002H9.67v-4.97L9 15.623H7.812l-.698-4.86l-.007 4.86H5.44V8.26h2.468c.083.523.16 1.048.23 1.574l.27 1.87l.442-3.444h2.483v7.364zm4.977-2.18c0 .655-.044 1.094-.104 1.32c-.062.22-.17.4-.326.52c-.15.13-.34.218-.57.266c-.223.045-.57.075-1.02.075l-.004-.002H11.98V8.26h1.426c.914 0 1.45.047 1.77.128c.325.09.575.225.745.42c.165.18.273.404.313.645c.05.235.076.705.076 1.402v2.588zm4.944.475c0 .45-.045.764-.09.99c-.06.224-.195.404-.405.568c-.226.166-.48.24-.78.24c-.22 0-.5-.06-.68-.136a1.586 1.586 0 0 1-.515-.427l-.116.47H16.95V8.26l-.02-.003h1.8v2.4c.15-.175.315-.31.51-.4c.196-.083.466-.127.69-.127c.226-.003.45.036.66.115c.17.07.32.185.436.33c.09.125.15.27.18.42c.03.138.044.43.044.87v2.054zm-2.173-2.714c-.12 0-.194.04-.225.12c-.03.08-.06.29-.06.624v1.946c0 .324.03.533.06.623c.04.086.13.14.226.134c.12 0 .272-.047.3-.14c.03-.097.046-.32.046-.674l.03-.002v-1.89c0-.303-.015-.508-.06-.603c-.044-.1-.195-.14-.315-.14z" fill="#f3ce13"/><rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" /></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://bronzelion.github.io/posts/">Blog</a></li>
+			<li><a href="https://bronzelion.github.io/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Oct 27, 2020</span></div>
+				<h1>Accelerate: The best book I read in 2020</h1>
+			</header>
+			<div class="content">
+				<div class="post-info">
+					<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 minutes</p>
+				</div>
+				<p>The book I wish to introduce to you today is titled <a href="https://www.oreilly.com/library/view/accelerate/9781457191435/">Accelerate</a> ⏩, from authors <em>Nicole Forsgren, Jez Humble &amp; Gene Kim</em> . This post isn&rsquo;t a review — it is a short summary of my opinions and insights gained upon reading this book. I&rsquo;d highly recommend it for anyone who is <em>writing any kind of software</em>(I absolutely mean it 😄).</p>
+<p>How often do we get started with writing code caring very little about deployment in the beginning — to realise that we should have thought about it from the start(even if that&rsquo;s for rapid prototyping).</p>
+<p>We were embarking on a journey of <a href="https://en.wikipedia.org/wiki/Greenfield_project">Greenfield Software Development</a> at work, and that&rsquo;s when I crossed paths with this book. It made perfect sense, and I was glad to get introduced to these <strong><em>measures</em></strong> of Software development.</p>
+<ul>
+<li>Lead time</li>
+<li>MTTR(Mean time to restore)</li>
+<li>Deployment Frequency</li>
+<li>Change Fail Percentage</li>
+</ul>
+<p>These at first seem like <em>common sense</em> or <em>&ldquo;well, that&rsquo;s obvious&rdquo;</em>, isn&rsquo;t it? Indeed, they are but are often difficult to measure owing to the complexity of delivery pipelines.</p>
+<p>So, if you were asking <em>what is this book all about</em>? The book is organized into three sections(which are pretty self-explanatory, I suppose):</p>
+<ul>
+<li>What we found</li>
+<li>The Research</li>
+<li>Transformation</li>
+</ul>
+<p>The authors back what they have proposed from research conducted on various software development teams and organizations. I shall not dive into details here, but would encourage you to take a look. The biggest eye-opener for me personally, was to learn how to approach <em>software development and delivery</em> in a way that it can be quantified. This has helped me appreciate the limitations of <a href="https://en.wikipedia.org/wiki/Monolithic_application">monoliths</a>, and further emphasized the need for writing <a href="https://en.wikipedia.org/wiki/Loose_coupling#Methods_for_decreasing_coupling"><em>decoupled software</em></a>. Monoliths, aren&rsquo;t <em>entirely bad</em>(it depends) — they could be fine as long as they are &ldquo;<em>manageable</em>&rdquo; and can be measured as described above.</p>
+<p>The sections in the book talk about empowering individuals on one end of the spectrum and zooming out to organizational productivity on the other side. Simply put, each organization&rsquo;s performance can be attributed to every employee&rsquo;s productivity. From a perspective of a person writing software it can be quantified as the <em>ease</em> of releasing a change(software). How quickly can a feature requested be prototyped, iterated and deployed to the end-user. The converse so to speak — when release management isn&rsquo;t &ldquo;scary&rdquo;(be it the process or the time it takes) and if engineers can release software in an organized, repeatable and measurable manner, there isn&rsquo;t any barrier for enhancing productivity.</p>
+<p>Delivery pipelines that can be measured against the above attributes can help define the productivity of Software engineering teams. Some organizations measure productivity as a by-product of their deployment frequency, the only caveat here is to differentiate between genuine feature releases vs the percentage of remedial release. Remedial releases(change fail percentage) aren&rsquo;t necessarily <em>bad</em>, in-fact high performing engineering teams aren&rsquo;t afraid of releasing software frequently, as the time it takes to fix a bug(MTTR), would be tiny.</p>
+<p>The book highlights many such concepts around Continuous Delivery that are simple to understand and relate to. It also sheds light onto best practices that are noteworthy. Overall this book has helped me refresh the way I think about deployment and software delivery, and I hope you would find it useful too!</p>
+<p>Happy reading ☕</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://bronzelion.github.io/tags/books">books</a></span><span class="tag"><a href="https://bronzelion.github.io/tags/delivery-pipelines">delivery-pipelines</a></span><span class="tag"><a href="https://bronzelion.github.io/tags/continuous-delivery">continuous-delivery</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>541 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-10-27 22:33 &#43;0000</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://bronzelion.github.io">Harsha KC</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://bronzelion.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://bronzelion.github.io/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>
