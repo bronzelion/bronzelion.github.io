@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publications on Harsha K Chidambara</title>
+    <link>https://bronzelion.github.io/tags/publications/</link>
+    <description>Recent content in publications on Harsha K Chidambara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 27 Feb 2022 18:10:51 +0000</lastBuildDate><atom:link href="https://bronzelion.github.io/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://bronzelion.github.io/publications/</link>
+      <pubDate>Sun, 27 Feb 2022 18:10:51 +0000</pubDate>
+      
+      <guid>https://bronzelion.github.io/publications/</guid>
+      <description>2019 Modelling Scene data for Render time Estimation  Conference : Siggraph Asia 2019, Brisbane, Australia Category : Poster Description : A technique to estimate Render time of an Image of a typical 3D scene, based off previous renders. Links :  Posters Gallery Publication    2012 Network Intrusion Detection  Conference : International Conference on Emerging Trends in Electrical, Communication and Information Technologies 2012, India Category : Technical Paper Description : A novel approach to detect and classify network intrusions from malicious access.</description>
+    </item>
+    
+  </channel>
+</rss>
